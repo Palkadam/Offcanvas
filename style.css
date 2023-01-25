@@ -1,0 +1,208 @@
+.bg-img{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://bootstrapmade.com/demo/templates/iPortfolio/assets/img/hero-bg.jpg);
+    background-size: cover;
+}
+
+.bg-container {
+    padding-top: 15%;
+    padding-left: 30%;
+    min-width: 200px;
+}
+
+.bg-container h1 {
+    margin: 0 0 10px 0;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+
+.bg-container p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
+    display: block;
+}
+
+#header .profile img {
+    margin: 15px auto;
+    display: block;
+    height: auto;
+    width: 140px;
+    border: 8px solid #2c2f3f;
+    border-radius: 50%!important;
+}
+
+#header .profile h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}   
+
+.profile .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.profile .social-links a:hover {
+    background: #007aff;
+    color: #fff;
+}
+
+.nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-menu ul{
+    padding: 12px 15px;
+    margin-bottom: 15px;
+}
+
+.nav-menu ul a{
+    color: #a8a9b4;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.nav-menu ul a:hover{
+    color: #fff;
+}
+
+.nav-menu a i{
+    color: #a8a9b4;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.nav-menu a i:hover{
+    color: #fff;
+}
+
+#footer {
+    padding: 15px;
+    color: #f4f6fd;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 9999;
+    background: #040b14;
+}
+
+#footer .copyright {
+    text-align: center;
+}
+
+#footer .credits {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: #eaebf0;
+}
+
+#footer .credits a {
+    color: #149ddd;
+    text-decoration: none;
+}
+
+
+/* --------------------------------SKILLS START-------------------------------- */
+#sec2{
+    background: #e9effa;
+    padding: 60px 0;
+    overflow: hidden;
+    padding-left: 22%;
+}
+
+.skills-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+
+.skills-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+
+.skills-title p {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+}
+
+.progress-skill {
+    height: 60px;
+    display: block;
+}
+
+.skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    display: block;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+}
+
+.value{
+    float: right;
+    font-style: normal;
+}
+
+.progress{
+    background: #b9d0f0;
+    height: 10px;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #149ddd;
+}
+/* --------------------------------SKILLS END-------------------------------- */
+
+
+#sec3{
+    padding: 60px 0;
+    overflow: hidden;
+    padding-left: 22%;
+}
